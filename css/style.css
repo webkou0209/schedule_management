@@ -1,0 +1,18 @@
+th{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+  }
+
+  tr:first-child th:first-child{
+    z-index: 1;
+}
+
+
+.example tr:first-child th{
+    border-top: 1px solid #999;
+}
+.example th:first-child{
+    border-left: 1px solid #999;
+}
